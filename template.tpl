@@ -902,7 +902,7 @@ var cjData = {
             'trackingSource' : 'gtm',
             'referringChannel' : referringChannel,
             'pageType' : 'conversionConfirmation',
-            '' : customParameterMap,
+            ...customParameterMap,
             'items' : items
            	}};
 }
@@ -914,7 +914,7 @@ var cjData = {
         	'cartSubtotal' : orderSubTotal,     
             'trackingSource' : 'gtm',
             'pageType' : page,
-            '' : customParameterMap,
+            ...customParameterMap,
             'items' : items
            	}};
 
